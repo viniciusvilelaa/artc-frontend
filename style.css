@@ -1,13 +1,44 @@
 #navbar{
-    display:  flex;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    position: relative!important;
+
 }
 
-.carousel-control-prev {
+.custom {
+    margin-top: 16%;
+    width: 3% ;
+    height: 13% ;
+    border-radius: 0% 25% 25% 0%!important;
+    
+    opacity: 1 !important;
+    background: #DB812D!important;
+}
+
+.custom2 {
+    margin-top: 16%;
+    width: 3%;
+    height: 13%;
+    border-radius: 25% 0 0 25% !important;
     opacity: 1;
-    margin-top: 12em;
-    width: 60px;
-    height: 150px;
-    background: #DB812D;
-    border-radius: 0px 15px 15px 0px;
-  }
+    background: #DB812D!important;
+}
+
+.bg-custom{
+    background: #DB812D!important;
+}
+
+
+.titulo{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: 1.5em;
+    color: white;
+    font-style: normal;
+    
+}
+
+.btnLojas{
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: .60em .60em .60em .60em  !important;
+    margin-bottom: 1%;
+}
