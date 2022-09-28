@@ -1,0 +1,13 @@
+#navbar{
+    display:  flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-control-prev {
+    opacity: 1;
+    margin-top: 12em;
+    width: 60px;
+    height: 150px;
+    background: #DB812D;
+    border-radius: 0px 15px 15px 0px;
+  }
