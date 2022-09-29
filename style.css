@@ -56,9 +56,8 @@
 }
 
 .tituloPromo{
-    display: flex;
+    display: inline-block;
     justify-content: center;
-    font-size: 2vw;
     padding-top: 2vw;
     color: #DB812D;
     font-style: normal;
@@ -89,4 +88,13 @@
 
 .owlCustom{
     max-width: 50vw!important;
+}
+
+.footer{
+    background: #333333;
+}
+
+.imgFooter{
+    width: 3vw;
+    height: 3vw;
 }
