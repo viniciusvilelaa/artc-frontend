@@ -94,7 +94,16 @@
     background: #333333;
 }
 
+.listFooter{
+    display: inline;
+    margin-bottom: 0px;
+}
+.itemList{
+    font-size: 2vw;
+    display: inline;
+    padding-right: 5vw;
+}
 .imgFooter{
-    width: 3vw;
-    height: 3vw;
+    width: 10vw;
+    
 }

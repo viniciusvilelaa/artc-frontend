@@ -21,3 +21,16 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
+
+
+
+
+            <footer class="container-fluid footer text-center">
+        <div class="imgFooter pt-5 d-inline">
+          <img src="img/image 13.png"  width="50px" height="50px" alt="...">
+        </div>
+        <div class="footerTitle">
+          <p>TESTE</p>
+          <p>TESTE</p>
+          <p>TESTE</p>
+        </div>
