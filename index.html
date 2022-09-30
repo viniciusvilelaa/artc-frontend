@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>FRONT-END ART&C</title>
 </head>
 <body>
     <header> 
-        <nav id="navbar" class="navbar navbar-light bg-white shadow-lg display-">
-            <div class="container justify-content-around">
-              <a class="navbar-brand" href="#">
+        <nav id="navbar" class="navbar navbar-light bg-white shadow-lg">
+            <div class="container  customNav">
+              <a class="navbar-brand">
                 <img
                   src="img/logo 1.png"
                   width="176"
                   height="94px"
                   alt="Logo"
                   loading="lazy"
+                  class="logoNav"
                 />
               </a>
               <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,12 +41,15 @@
                   <div class="carousel-item active">
                     <img src="img/banner-reabertura-2484x945 (1) 1.png" class="d-block w-100" alt="...">
                   </div>
+                  <!--Item End-->
                   <div class="carousel-item">
                     <img src="img/banner-reabertura-2484x945 (1) 1.png" class="d-block w-100" alt="...">
                   </div>
+                  <!--Item End-->
                   <div class="carousel-item">
                     <img src="img/banner-reabertura-2484x945 (1) 1.png" class="d-block w-100" alt="...">
                   </div>
+                  <!--Item End-->
                 <button class="carousel-control-prev custom" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
@@ -58,32 +62,32 @@
         </section>
         <section class="container-fluid bg-custom text-center">
             <div class="tituloLojas">
-              <p class="text-md-center fw-bold pe-1" style="font-size: 2vw;">NOSSAS</p>
-              <p class="text-md-center " style="font-size: 2vw;">LOJAS</p>
+              <p class="text-md-center fw-bold pe-1">NOSSAS</p>
+              <p class="text-md-center" id="lojas">LOJAS</p>
               
             </div>
             </div>
               <button type="button" class="btn btn-outline-light btnLojas">Ver todas as lojas</button>
             </div>
-            <div class="container pb-5">
+            <div class="container pb-5 ">
               <div class="row">
                 <div class="col-sm">
                   <img src="img/image 6.png" class="img-fluid" alt="...">
                 </div>
                 <div class="col-sm">
-                  <img src="img/image 7.png" class="img-fluid" alt="...">
+                  <img src="img/image 7.png" class="img-fluid d-none d-sm-block" alt="...">
                 </div>
                 <div class="col-sm">
-                  <img src="img/image 8.png" class="img-fluid" alt="...">
+                  <img src="img/image 8.png" class="img-fluid d-none d-sm-block" alt="...">
                 </div>
             </div>
         </section>
 
         <section>
             <div class="cinemarkPromo">
-              <div class="tituloPromo">
+              <div class="titlePromo row1">
                 <p class="text-md-center fw-bold pe-1">PROGRAMAÇÃO</p>
-                <p class="text-md-center ">CINEMARK</p>
+                <p class="text-md-center" id="cinema">CINEMARK</p>
               </div>
               <div class="container-fluid my-5 text-center owlCustom">
                 <div class="row">
@@ -91,15 +95,19 @@
                         <div class="item">
                             <img src="img/Rectangle 25.png" alt="filme1" class="card-img-top">
                         </div>
-                        <!--Item End-->
+                  <!--Item End-->
                         <div class="item ">
                           <img src="img/Rectangle 26.png" alt="filme2" class="card-img-top">
                         </div>
-                      <!--Item End-->
+                  <!--Item End-->
                         <div class="item ">
                           <img src="img/Rectangle 27.png" alt="filme3" class="card-img-top">
                         </div>
-                    <!--Item End-->
+                  <!--Item End-->
+                        <div class="item">
+                          <img src="img/Rectangle 28.png" alt="filme4" class="card-img-top">
+                        </div>
+                  <!--Item End-->
                         <div class="item">
                           <img src="img/Rectangle 28.png" alt="filme4" class="card-img-top">
                         </div>
@@ -112,24 +120,26 @@
             </div>
         </section>
       </main>
-      <footer class="container-fluid p-4 footer">
-        <div class="d-flex justify-content-around">
-          <div>
-            <span><img src="img/image 13.png"></span>
-          </div>
-          <div class="copyright text-white d-flex align-items-lg-center">
-            <p class="itemList">Teste</p><p class="itemList">Teste</p><p class="itemList">Teste</p>
+      <div class="mt-5 pt-5 pb-5 footer ">
+        <div class="container">
+          <div class="row d-flex align-items-center row1">
+            <div class="col-lg-3 col-xs-12 about-company d-flex logoFooter">
+              <img src="img/image 13.png" alt="logo" class="pb-2">
+            </div>
+              <div class="footerText" >
+                <legend>VITRINE VIRTUAL</legend>
+              </div>
+              <div class="footerText">
+                <legend><a href="#lojas">NOSSAS LOJAS</a></legend>
+              </div>
+              <div class="footerText">
+                <legend><a href="#cinema">CINEMA</a></legend>
+              </div>
+              <div class="footerText">
+                <legend>GASTRONOMIA</legend>
+              </div>
           </div>
         </div>
-      </footer>
-        <!-- Footer -->
-      </section>
-        
-      </div>
-
-        
-        
-      </footer>
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
